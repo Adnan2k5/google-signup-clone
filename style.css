@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.login-side {
+  width: 40%;
+  height: 100vh;
+  margin-left: 5%;
+}
+
+.login-side .heading {
+  margin-left: 10%;
+}
+
+.heading h3 {
+  margin-top: 15px;
+}
+
+.credentials {
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.first-name {
+  padding: 15px;
+  width: 300px;
+}
+
+.last-name {
+  padding: 15px;
+  width: 300px;
+}
+
+.email {
+  padding: 15px;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.password {
+  padding: 15px;
+  width: 300px;
+  margin-top: 50px;
+}
+.confirm-password {
+  padding: 15px;
+  width: 300px;
+  margin-top: 50px;
+}
+
+.footer {
+  margin-top: 200px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.sign-in-ins {
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 8%;
+  text-decoration: none;
+  font-size: 18px;
+  color: #1e90ff;
+  font-weight: 900;
+}
+
+.next-btn {
+  padding: 11px;
+  margin-right: 5%;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  font-size: 18px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo-side {
+  width: 50%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
